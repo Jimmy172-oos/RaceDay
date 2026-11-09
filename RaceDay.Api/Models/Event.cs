@@ -33,6 +33,8 @@ namespace RaceDay.Api.Models
         public string EventType { get; set; } = string.Empty;
 
         // Foreign key to Users (the Organizer who created the event)
+
+        public string? BannerUrl { get; set; }
         public int OrganizerId { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.Now;

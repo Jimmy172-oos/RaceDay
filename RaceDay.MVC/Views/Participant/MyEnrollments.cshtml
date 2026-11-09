@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "My Enrollments";
+}
+
+<h2 class="fw-bold mb-4">My Enrollments</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success rounded-pill">@TempData["Success"]</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger rounded-pill">@TempData["Error"]</div>
+}
+
+<div class="alert alert-info">Enrollment list coming in Stage 5!</div>

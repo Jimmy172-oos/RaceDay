@@ -1,0 +1,507 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\services\\sessionauthfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\services\\sessionauthfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\services\\apiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\controllers\\organizercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\controllers\\organizercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\views\\organizer\\createevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\views\\organizer\\createevent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|solutionrelative:raceday.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.api\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|solutionrelative:raceday.api\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\views\\organizer\\myevents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\views\\organizer\\myevents.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\views\\organizer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\views\\organizer\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\views\\participant\\myenrollments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\views\\participant\\myenrollments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\views\\participant\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\views\\participant\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\views\\participant\\myresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\views\\participant\\myresults.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\controllers\\participantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\controllers\\participantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.api\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|solutionrelative:raceday.api\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|solutionrelative:raceday.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\views\\participant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\views\\participant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\views\\participant\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\views\\participant\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.mvc\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3738FFC5-DD46-4398-832E-64C9C3A11655}|RaceDay.MVC\\RaceDay.MVC.csproj|solutionrelative:raceday.mvc\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.api\\raceday.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|solutionrelative:raceday.api\\raceday.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|solutionrelative:raceday.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.api\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|solutionrelative:raceday.api\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.api\\services\\blobstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|solutionrelative:raceday.api\\services\\blobstorageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.api\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|solutionrelative:raceday.api\\services\\jwttokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D9D8E2-607E-794F-661B-67674A1416B8}|RaceDay.Api\\RaceDay.Api.csproj|solutionrelative:raceday.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{983761EC-DBB9-7AFF-3533-4985E94A5E9C}|RaceDay.Api.Tests\\RaceDay.Api.Tests.csproj|c:\\users\\cash\\onedrive\\documents\\prog prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\cybersecuritybot\\.github\\raceday\\raceday.api.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{983761EC-DBB9-7AFF-3533-4985E94A5E9C}|RaceDay.Api.Tests\\RaceDay.Api.Tests.csproj|solutionrelative:raceday.api.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 197,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreateEvent.cshtml",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Organizer\\CreateEvent.cshtml",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Views\\Organizer\\CreateEvent.cshtml",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Organizer\\CreateEvent.cshtml",
+              "RelativeToolTip": "RaceDay.MVC\\Views\\Organizer\\CreateEvent.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwCcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T20:52:45.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MyEvents.cshtml",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Organizer\\MyEvents.cshtml",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Views\\Organizer\\MyEvents.cshtml",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Organizer\\MyEvents.cshtml",
+              "RelativeToolTip": "RaceDay.MVC\\Views\\Organizer\\MyEvents.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T20:51:37.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Organizer\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Views\\Organizer\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Organizer\\Dashboard.cshtml",
+              "RelativeToolTip": "RaceDay.MVC\\Views\\Organizer\\Dashboard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T20:50:35.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrganizerController.cs",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Controllers\\OrganizerController.cs",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Controllers\\OrganizerController.cs",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Controllers\\OrganizerController.cs",
+              "RelativeToolTip": "RaceDay.MVC\\Controllers\\OrganizerController.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAADwv5QAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T20:40:59.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Participant\\Profile.cshtml",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Views\\Participant\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Participant\\Profile.cshtml",
+              "RelativeToolTip": "RaceDay.MVC\\Views\\Participant\\Profile.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T20:35:36.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MyResults.cshtml",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Participant\\MyResults.cshtml",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Views\\Participant\\MyResults.cshtml",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Participant\\MyResults.cshtml",
+              "RelativeToolTip": "RaceDay.MVC\\Views\\Participant\\MyResults.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T20:33:55.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\Models\\LoginDto.cs",
+              "RelativeDocumentMoniker": "RaceDay.Api\\Models\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\Models\\LoginDto.cs",
+              "RelativeToolTip": "RaceDay.Api\\Models\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T19:36:26.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyEnrollments.cshtml",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Participant\\MyEnrollments.cshtml",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Views\\Participant\\MyEnrollments.cshtml",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Participant\\MyEnrollments.cshtml",
+              "RelativeToolTip": "RaceDay.MVC\\Views\\Participant\\MyEnrollments.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T17:59:33.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Participant\\Details.cshtml",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Views\\Participant\\Details.cshtml",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Participant\\Details.cshtml",
+              "RelativeToolTip": "RaceDay.MVC\\Views\\Participant\\Details.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T17:58:19.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Participant\\Index.cshtml",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Views\\Participant\\Index.cshtml",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Participant\\Index.cshtml",
+              "RelativeToolTip": "RaceDay.MVC\\Views\\Participant\\Index.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T17:52:43.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ParticipantController.cs",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Controllers\\ParticipantController.cs",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Controllers\\ParticipantController.cs",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Controllers\\ParticipantController.cs",
+              "RelativeToolTip": "RaceDay.MVC\\Controllers\\ParticipantController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAswIQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T17:50:21.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RaceDay.MVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADoAAAAAAAAAAAAowD8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T17:48:12.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SessionAuthFilter.cs",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Services\\SessionAuthFilter.cs",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Services\\SessionAuthFilter.cs",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Services\\SessionAuthFilter.cs",
+              "RelativeToolTip": "RaceDay.MVC\\Services\\SessionAuthFilter.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T17:46:52.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "RaceDay.MVC\\Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T17:34:35.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "RaceDay.MVC\\Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAADIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-11-09T17:12:03.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RaceDay.MVC\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAowFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T17:05:50.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Program.cs",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Program.cs",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Program.cs",
+              "RelativeToolTip": "RaceDay.MVC\\Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAowCsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T17:02:49.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Services\\ApiClient.cs",
+              "RelativeDocumentMoniker": "RaceDay.MVC\\Services\\ApiClient.cs",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.MVC\\Services\\ApiClient.cs",
+              "RelativeToolTip": "RaceDay.MVC\\Services\\ApiClient.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAowDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T17:02:12.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "RaceDay.Api\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\Models\\Event.cs",
+              "RelativeToolTip": "RaceDay.Api\\Models\\Event.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T14:44:53.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "RaceDay.Api\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\Controllers\\EventController.cs",
+              "RelativeToolTip": "RaceDay.Api\\Controllers\\EventController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwHUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T14:31:41.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "BlobStorageService.cs",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\Services\\BlobStorageService.cs",
+              "RelativeDocumentMoniker": "RaceDay.Api\\Services\\BlobStorageService.cs",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\Services\\BlobStorageService.cs",
+              "RelativeToolTip": "RaceDay.Api\\Services\\BlobStorageService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvyAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T14:41:45.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "JwtTokenService.cs",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\Services\\JwtTokenService.cs",
+              "RelativeDocumentMoniker": "RaceDay.Api\\Services\\JwtTokenService.cs",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\Services\\JwtTokenService.cs",
+              "RelativeToolTip": "RaceDay.Api\\Services\\JwtTokenService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswCcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T14:40:00.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "RaceDay.Api",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\RaceDay.Api.csproj",
+              "RelativeDocumentMoniker": "RaceDay.Api\\RaceDay.Api.csproj",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\RaceDay.Api.csproj",
+              "RelativeToolTip": "RaceDay.Api\\RaceDay.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-09T13:08:29.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "RaceDay.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "RaceDay.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T13:44:46.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c6f34f0d-7ae5-4f3a-be61-fe0c21ae9eb8}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "RaceDay.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\appsettings.json",
+              "RelativeToolTip": "RaceDay.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-09T11:55:59.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "RaceDay.Api\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "RaceDay.Api\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-09T11:54:39.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "RaceDay.Api.Tests\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "RaceDay.Api.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T22:11:41.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\Program.cs",
+              "RelativeDocumentMoniker": "RaceDay.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\CASH\\OneDrive\\Documents\\Prog Prep part3\\wetransfer_cybersecuritybot_2026-06-26_1217\\CybersecurityBot\\.github\\RaceDay\\RaceDay.Api\\Program.cs",
+              "RelativeToolTip": "RaceDay.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-16T22:02:37.498Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

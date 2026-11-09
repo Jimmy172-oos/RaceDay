@@ -1,0 +1,34 @@
+﻿@model RaceDay.Mvc.Controllers.EventDto
+@{
+    ViewData["Title"] = Model.EventName;
+}
+
+<div class="card shadow border-0 mb-4">
+    @if (!string.IsNullOrEmpty(Model.BannerUrl))
+    {
+        <img src="@Model.BannerUrl" class="card-img-top" alt="@Model.EventName" style="max-height: 400px; object-fit: cover;">
+    }
+    <div class="card-body p-5">
+        <h1 class="fw-bold mb-3">@Model.EventName</h1>
+        <h5 class="text-primary mb-4">@Model.EventDate.ToString("dd MMMM yyyy") • @Model.Location</h5>
+        <p class="lead">@Model.Description</p>
+        
+        <hr class="my-4" />
+        
+        <h4 class="mb-3">Available Categories</h4>
+        <div class="row">
+            @foreach (var cat in Model.Categories)
+            {
+                <div class="col-md-6 mb-3">
+                    <div class="card bg-light border-0 p-3 d-flex flex-row justify-content-between align-items-center">
+                        <span class="fw-bold">@cat.CategoryName</span>
+                        <form asp-action="Enroll" method="post">
+                            <input type="hidden" name="categoryId" value="@cat.CategoryId" />
+                            <button type="submit" class="btn btn-primary rounded-pill px-4">Enroll</button>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

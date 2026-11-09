@@ -1,0 +1,47 @@
+﻿@model List<RaceDay.Mvc.Controllers.EventDto>
+@{
+    ViewData["Title"] = "Upcoming Events";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="fw-bold">Upcoming Events</h2>
+    <div>
+        <input type="text" id="searchInput" class="form-control rounded-pill" placeholder="Search events..." onkeyup="filterEvents()" />
+    </div>
+</div>
+
+<div class="row" id="eventList">
+    @foreach (var ev in Model)
+    {
+        <div class="col-md-4 mb-4 event-card" data-name="@ev.EventName.ToLower()">
+            <div class="card h-100 shadow-sm border-0">
+                @if (!string.IsNullOrEmpty(ev.BannerUrl))
+                {
+                    <img src="@ev.BannerUrl" class="card-img-top" alt="@ev.EventName" style="height: 200px; object-fit: cover;">
+                }
+                else
+                {
+                    <div class="bg-primary text-white text-center py-5" style="height: 200px;">
+                        <h3 class="mt-4">@ev.EventType</h3>
+                    </div>
+                }
+                <div class="card-body">
+                    <h5 class="card-title fw-bold">@ev.EventName</h5>
+                    <p class="text-muted small mb-1">@ev.EventDate.ToString("dd MMM yyyy") • @ev.Location</p>
+                    <a asp-action="Details" asp-route-id="@ev.EventId" class="btn btn-outline-primary w-100 rounded-pill mt-3">View Details</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<script>
+    function filterEvents() {
+        var input = document.getElementById("searchInput").value.toLowerCase();
+        var cards = document.getElementsByClassName("event-card");
+        for (var i = 0; i < cards.length; i++) {
+            var name = cards[i].getAttribute("data-name");
+            cards[i].style.display = name.includes(input) ? "" : "none";
+        }
+    }
+</script>

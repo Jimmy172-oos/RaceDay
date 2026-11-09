@@ -1,0 +1,39 @@
+﻿@model List<RaceDay.Mvc.Controllers.MyResultDto>
+@{
+    ViewData["Title"] = "My Results";
+}
+
+<h2 class="fw-bold mb-4">My Results</h2>
+
+@if (Model.Count == 0)
+{
+    <div class="alert alert-info">No results recorded yet. Check back after your events conclude!</div>
+}
+else
+{
+    <table class="table table-hover bg-white shadow-sm rounded">
+        <thead class="table-light">
+            <tr>
+                <th>Category</th>
+                <th>Finish Time</th>
+                <th>Position</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var r in Model)
+            {
+                <tr>
+                    <td class="fw-bold">@(r.Enrollment?.Category?.CategoryName ?? "Unknown")</td>
+                    <td>@(string.IsNullOrEmpty(r.FinishTime) ? "-" : r.FinishTime)</td>
+                    <td>@(r.Position.HasValue ? r.Position.ToString() + "th" : "-")</td>
+                    <td>
+                        <span class="badge @(r.Status == "Finished" ? "bg-success" : "bg-secondary")">
+                            @r.Status
+                        </span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

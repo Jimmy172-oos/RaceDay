@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RaceDay</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+            body {
+                background-color: #f8f9fa;
+            }
+
+            .navbar-brand {
+                font-weight: bold;
+                font-size: 1.5rem;
+                color: #0d6efd !important;
+            }
+
+            .nav-link {
+                font-weight: 500;
+            }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm mb-4">
+        <div class="container">
+            <a class="navbar-brand" asp-controller="Home" asp-action="Index">Race Day</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    @if (Context.Session.GetString("UserRole") == "Participant")
+                    {
+                        <li class="nav-item"><a class="nav-link" asp-controller="Participant" asp-action="Index">Upcoming Events</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Participant" asp-action="MyEnrollments">My Enrollments</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Participant" asp-action="MyResults">My Results</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Participant" asp-action="Profile">Profile</a></li>
+                    }
+                    else if (Context.Session.GetString("UserRole") == "Organizer")
+                    {
+                        <li class="nav-item"><a class="nav-link" asp-controller="Organizer" asp-action="Dashboard">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-controller="Organizer" asp-action="MyEvents">My Events</a></li>
+                    }
+                </ul>
+
+                @if (Context.Session.GetString("JwtToken") != null)
+                {
+                    <span class="navbar-text me-3 fw-bold text-dark">Hello, @Context.Session.GetString("UserName")</span>
+                    <a class="btn btn-outline-danger btn-sm rounded-pill" asp-controller="Auth" asp-action="Logout">Logout</a>
+                }
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,23 +1,46 @@
 using System.Reflection;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using RaceDay.Api.Data;
+using RaceDay.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 1. Controllers (the classes that hold our endpoints)
+// 1. Controllers
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
     {
-        // Stops JSON errors when objects point at each other (e.g. Event <-> Category)
         options.JsonSerializerOptions.ReferenceHandler =
             System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles;
     });
 
-// 2. Database (SQL Server through Entity Framework Core)
+// 2. Database
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// 3. Session (remembers who is logged in and their role)
+// 3. Services
+builder.Services.AddScoped<JwtTokenService>();
+builder.Services.AddScoped<BlobStorageService>();
+
+// 4. JWT Authentication
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]!))
+        };
+    });
+
+// 5. Session
 builder.Services.AddDistributedMemoryCache();
 builder.Services.AddSession(options =>
 {
@@ -26,17 +49,13 @@ builder.Services.AddSession(options =>
     options.Cookie.IsEssential = true;
 });
 
-// 4. Swagger (a web page where we can see and test every endpoint)
+// 6. Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
-    // Shows the /// comments we write on our endpoints inside Swagger
     var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-    if (File.Exists(xmlPath))
-    {
-        options.IncludeXmlComments(xmlPath);
-    }
+    if (File.Exists(xmlPath)) options.IncludeXmlComments(xmlPath);
 });
 
 var app = builder.Build();
@@ -44,15 +63,14 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI(options =>
 {
-    // Tells the Swagger page where to find the list of endpoints
     options.SwaggerEndpoint("/swagger/v1/swagger.json", "RaceDay.Api v1");
-
-    // Opens Swagger straight away when the app starts (no need to type /swagger)
     options.RoutePrefix = string.Empty;
 });
 
 app.UseSession();
+app.UseAuthentication(); // MUST be added for JWT
+app.UseAuthorization();  // MUST be added for JWT
+
 app.MapControllers();
 
 app.Run();
-
