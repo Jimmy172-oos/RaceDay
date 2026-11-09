@@ -23,13 +23,6 @@ namespace RaceDay.Mvc.Controllers
         public async Task<IActionResult> MyEvents()
         {
             var allEvents = await _api.GetAsync<List<EventDto>>("events") ?? new List<EventDto>();
-
-            // Filter to only show events created by this Organizer
-            var userId = HttpContext.Session.GetInt32("UserId");
-
-            // Note: Since the API returns OrganizerId as a nested object sometimes, 
-            // we just check if it exists. In a real app, you'd filter by OrganizerId.
-            // For now, let's just show all events so you can see them.
             return View(allEvents);
         }
 
@@ -41,11 +34,10 @@ namespace RaceDay.Mvc.Controllers
 
         // POST: /Organizer/CreateEvent
         [HttpPost]
-        public async Task<IActionResult> CreateEvent(string eventName, string description, string eventDate, string location, string distance, string eventType)
+        public async Task<IActionResult> CreateEvent(string eventName, string description, string eventDate, string location, string distance, string eventType, IFormFile? bannerFile)
         {
             var userId = HttpContext.Session.GetInt32("UserId");
 
-            // Parse the date string safely
             if (!DateTime.TryParse(eventDate, out DateTime parsedDate))
             {
                 ViewBag.Error = "Invalid date format. Please try again.";
@@ -67,11 +59,37 @@ namespace RaceDay.Mvc.Controllers
 
             if (response.IsSuccessStatusCode)
             {
-                TempData["Success"] = "Event created successfully!";
+                // Read the newly created event ID from the API response
+                var content = await response.Content.ReadAsStringAsync();
+                var data = System.Text.Json.JsonDocument.Parse(content).RootElement;
+
+                // ASP.NET Core API returns camelCase by default (eventId)
+                int newEventId = 0;
+                if (data.TryGetProperty("eventId", out var idProp) || data.TryGetProperty("EventId", out idProp))
+                {
+                    newEventId = idProp.GetInt32();
+                }
+
+                // If a banner was uploaded, send it to the API
+                if (bannerFile != null && bannerFile.Length > 0 && newEventId > 0)
+                {
+                    using var formContent = new MultipartFormDataContent();
+                    var stream = bannerFile.OpenReadStream();
+                    formContent.Add(new StreamContent(stream), "file", bannerFile.FileName);
+
+                    var uploadResponse = await _api.PostFormAsync($"events/{newEventId}/banner", formContent);
+
+                    if (!uploadResponse.IsSuccessStatusCode)
+                    {
+                        TempData["Error"] = "Event created, but banner upload failed. (Is Azurite running?)";
+                        return RedirectToAction("MyEvents");
+                    }
+                }
+
+                TempData["Success"] = "Event and banner created successfully!";
                 return RedirectToAction("MyEvents");
             }
 
-            // Read the API error message for debugging
             var errorContent = await response.Content.ReadAsStringAsync();
             ViewBag.Error = $"Failed to create event. API says: {errorContent}";
             return View();

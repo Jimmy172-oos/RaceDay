@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  raceday-api:
+    build:
+      context: ./RaceDay.Api
+      dockerfile: Dockerfile
+    ports:
+      - "5000:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=host.docker.internal,1433;Database=RaceDayApiDB;User Id=sa;Password=YourStrong@Passw0rd;TrustServerCertificate=True
+      - AzureStorage__ConnectionString=UseDevelopmentStorage=true
+    depends_on:
+      - raceday-mvc
+
+  raceday-mvc:
+    build:
+      context: ./RaceDay.Mvc
+      dockerfile: Dockerfile
+    ports:
+      - "5001:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ApiBaseUrl=http://raceday-api:8080/api/

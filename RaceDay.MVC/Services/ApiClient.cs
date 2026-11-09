@@ -9,17 +9,16 @@ namespace RaceDay.Mvc.Services
         private readonly HttpClient _httpClient;
         private readonly IHttpContextAccessor _httpContextAccessor;
 
-        // Inject IHttpClientFactory to get a clean HttpClient
         public ApiClient(IHttpClientFactory httpClientFactory, IHttpContextAccessor httpContextAccessor)
         {
             _httpClient = httpClientFactory.CreateClient();
             _httpContextAccessor = httpContextAccessor;
 
+            // Local URL for Visual Studio testing
             _httpClient.BaseAddress = new Uri("http://localhost:5216/api/");
 
-            // Grab the token from the session
+            // Automatically attach the JWT token from the session to every request
             var token = _httpContextAccessor.HttpContext?.Session.GetString("JwtToken");
-
             if (!string.IsNullOrEmpty(token))
             {
                 _httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
