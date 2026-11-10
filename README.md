@@ -52,3 +52,14 @@ To run the full application using Docker:
 3. Run the following command:
    ```bash
    docker-compose up --build
+## Test Accounts
+
+To test the application, use the following credentials (or register a new account using the Register page):
+
+**Organizer Account:**
+- Email: jimmybuhle@gmail.com
+- Password: Jimmy10
+
+**Participant Account:**
+- Email: andy.jacobs@gmail.com
+- Password: password123
